@@ -79,15 +79,15 @@ Course :  ${userCourse}
 Semester :  ${userSemester}
     `;
     try {
-        // Send the message asynchronously and wait for the response
-        await sendMessage(messagebe);
-        // Message sent successfully, hide the loading indicator and update the submit button text
+        
+        sendMessage(messagebe);
+      
         load.style.display = "none";
         submit.innerHTML = "Sent!";
     } catch (error) {
-        // Handle the error if message sending fails
+       
         alert("Message sending failed. Please try again.");
-        // Restore the submit button and hide the loading indicator
+       
         load.style.display = "none";
         submit.innerHTML="Netwrok Error";
     }
