@@ -106,6 +106,18 @@ select{
     border-color: rgba(255, 255, 255, 0.44);
 }
 
+
+#whytojoin{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: .4rem;
+    padding-top: 3rem;
+   
+    
+}
 header{
     visibility: hidden;
     display: flex;
@@ -176,3 +188,4 @@ animation: spin 2s linear infinite;
         margin-top: -13.7vh;
     }
 }
+
