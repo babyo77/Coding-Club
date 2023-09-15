@@ -103,7 +103,7 @@ Semester :  ${userSemester}
      submit.innerHTML = "Join!";
      load.style.display = "none";
 
-    },100)
+    },1000)
 }
 
 }
