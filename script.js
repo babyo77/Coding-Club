@@ -9,7 +9,7 @@ let semester = document.getElementById("semester");
 let header = document.getElementById("header");
 let main = document.getElementById("main");
 let loadinggif = document.getElementById("loadinggif");
-
+let skill = document.getElementById("skill");
 
 
 
@@ -56,6 +56,7 @@ submit.onclick = async () => {
     let phoneNo = no.value;
     let userCourse = course.value;
     let userSemester = semester.value;
+    let userskill = skill.value;
 
     if (
         !fullName.trim() ||
@@ -63,7 +64,8 @@ submit.onclick = async () => {
         !userEmail.trim() ||
         !phoneNo.trim() ||
         !userCourse.trim() ||
-        !userSemester.trim()
+        !userSemester.trim() ||
+        !userskill.trim()
     ) {
        
         return; 
@@ -78,6 +80,7 @@ Email :  ${userEmail}
 Phone No :  ${phoneNo}
 Course :  ${userCourse}
 Semester :  ${userSemester}
+Level :  ${userskill}
     `;
     try {
         
