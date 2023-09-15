@@ -185,7 +185,7 @@ animation: spin 2s linear infinite;
 @media (max-width:800px){
     form{
 
-        margin-top: -5.7vh;
+        margin-top: 0vh;
     }
     #whytojoin{
    
