@@ -69,7 +69,7 @@ submit.onclick = () => {
     }
     else{
      submit.innerHTML=""
-     load.style.visibility="visible"
+     load.style.display="block"
     let messagebe = `
         Full Name :  ${fullName}
 KID :  ${kidId}
@@ -82,7 +82,7 @@ Semester :  ${userSemester}
     
     sendMessage(messagebe);
     setTimeout(()=>{
-        load.style.visibility="hidden"
+        load.style.display="none"
         submit.innerHTML="Sent!"
         
     },1000)

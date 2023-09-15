@@ -149,7 +149,7 @@ button:active{
     filter: invert(100%);
 }
 #load{
-    visibility: hidden;
+    display: none;
     border: 1px solid white;
     height: 17px;
     width: 17px;
