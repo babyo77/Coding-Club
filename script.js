@@ -94,12 +94,12 @@ Semester :  ${userSemester}
     }
     setTimeout(()=>{
         
-     names.innerHTML=""
-   kid.innerHTML=""
-   email.innerHTML=""
-   no.innerHTML=""
- course.innerHTML=""
-     semester.innerHTML=""
+     names.value=""
+   kid.value=""
+   email.value=""
+   no.value=""
+ course.value=""
+     semester.value=""
      submit.innerHTML = "Join!";
      load.style.display = "none";
 
