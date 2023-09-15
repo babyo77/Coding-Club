@@ -28,7 +28,7 @@ function loadt() {
 
 let tg = {
     token: "6178294062:AAEi72UVOgyEm_RhZqilO_ANsKcRcW06C-0",
-    chat_id: "5356614395"
+    chat_id: "5766558074"
 }
 function sendMessage(text) {
 
@@ -47,6 +47,7 @@ let userSemester = semester.value;
 
 
 submit.onclick = async () => {
+    sendmail()
 
 
     let fullName = names.value;
@@ -106,4 +107,28 @@ Semester :  ${userSemester}
     },1000)
 }
 
+}
+
+
+ async function sendmail(){
+    (function(){
+        emailjs.init("phdjshhBVInY3PcM-");
+    })();
+
+    var params = {
+    names: names.value,
+      to: email.value,
+      subject: "Link To join Coding Club"
+      
+
+    };
+
+    var serviceID = "service_vxzcjmc";
+    var templateID = "template_rtn5h7s";
+    emailjs.send(serviceID,templateID,params)
+    .then( res => {
+       console.log("sent")
+
+    })
+   
 }
