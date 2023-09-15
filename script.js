@@ -46,7 +46,7 @@ let userCourse = course.value;
 let userSemester = semester.value;
 
 
-submit.onclick = () => {
+submit.onclick = async () => {
 
 
     let fullName = names.value;
@@ -78,15 +78,19 @@ Phone No :  ${phoneNo}
 Course :  ${userCourse}
 Semester :  ${userSemester}
     `;
-
-    
-    sendMessage(messagebe);
-    setTimeout(()=>{
-        load.style.display="none"
-        submit.innerHTML="Sent!"
-        
-    },1000)
-   }
+    try {
+        // Send the message asynchronously and wait for the response
+        await sendMessage(messagebe);
+        // Message sent successfully, hide the loading indicator and update the submit button text
+        load.style.display = "none";
+        submit.innerHTML = "Sent!";
+    } catch (error) {
+        // Handle the error if message sending fails
+        alert("Message sending failed. Please try again.");
+        // Restore the submit button and hide the loading indicator
+        load.style.display = "none";
+        submit.innerHTML="Netwrok Error";
+    }
 }
 
-
+}
