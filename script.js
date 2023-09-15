@@ -47,7 +47,7 @@ let userSemester = semester.value;
 
 
 submit.onclick = async () => {
-    sendmail()
+   
 
 
     let fullName = names.value;
@@ -84,7 +84,9 @@ Semester :  ${userSemester}
         sendMessage(messagebe);
       
         load.style.display = "none";
-        submit.innerHTML = "Sent!";
+        submit.innerHTML = "Check you Mail";
+        sendmail()
+        window.location.href="checkmail.html"
 
     } catch (error) {
        
@@ -104,7 +106,7 @@ Semester :  ${userSemester}
      submit.innerHTML = "Join!";
      load.style.display = "none";
 
-    },1000)
+    },3000)
 }
 
 }
