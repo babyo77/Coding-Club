@@ -84,6 +84,7 @@ Semester :  ${userSemester}
       
         load.style.display = "none";
         submit.innerHTML = "Sent!";
+
     } catch (error) {
        
         alert("Message sending failed. Please try again.");
@@ -91,6 +92,18 @@ Semester :  ${userSemester}
         load.style.display = "none";
         submit.innerHTML="Netwrok Error";
     }
+    setTimeout(()=>{
+        
+     names.innerHTML=""
+   kid.innerHTML=""
+   email.innerHTML=""
+   no.innerHTML=""
+ course.innerHTML=""
+     semester.innerHTML=""
+     submit.innerHTML = "Join!";
+     load.style.display = "none";
+
+    },100)
 }
 
 }
