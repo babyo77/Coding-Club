@@ -12,12 +12,13 @@ let loadinggif = document.getElementById("loadinggif");
 let skill = document.getElementById("skill");
 
 
-
+let whytojoin = document.getElementById("whytojoin");
 
 setTimeout(loadt, 333)
 
 function loadt() {
     clearTimeout(1300)
+    whytojoin.style.visibility="visible"
     loadinggif.style.display = "none"
     header.style.visibility = "visible"
     main.style.visibility = "visible"

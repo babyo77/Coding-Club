@@ -113,7 +113,7 @@ select{
 #whytojoin{
    
     display: flex;
-  
+  visibility: hidden;
     justify-content: center;
     text-align: center;
     align-items: center;
