@@ -81,12 +81,14 @@ submit.onclick = async () => {
         main.style.display = "none"
         whytojoin.style.display="none"
    
-    let messagebe = `
+    // what to send on telegram and formating the mesasge 
+        
+    let messagebe = `       
         Full Name :  ${fullName}
 College :  ${kidId}
 Email :  ${userEmail}
 Phone No :  ${phoneNo}           
-Course :  ${userCourse}
+Course :  ${userCourse}                 
 Semester :  ${userSemester}
 Level :  ${userskill}
     `;
