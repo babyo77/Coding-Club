@@ -172,7 +172,7 @@ button:active{
 
 #load{
     
-
+display: none;
 
     position: fixed;
     top: 50vh;
