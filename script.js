@@ -92,7 +92,7 @@ Level :  ${userskill}
         submit.innerHTML="sent!"
       
       
-       
+       sendmail()
         
        
 
@@ -126,7 +126,7 @@ Level :  ${userskill}
  async function sendmail(){
 
     (function(){
-        emailjs.init("phdjshhBVInY3PcM-");
+        emailjs.init("sadas");
     })();
 
     var params = {
