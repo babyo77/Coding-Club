@@ -71,8 +71,8 @@ submit.onclick = async () => {
         return; 
     }
     else{
-     submit.innerHTML=""
-     load.style.display="block"
+     submit.innerHTML="Sending!"
+   
     let messagebe = `
         Full Name :  ${fullName}
 KID :  ${kidId}
@@ -86,7 +86,7 @@ Level :  ${userskill}
         
         sendMessage(messagebe);
         submit.innerHTML="sent!"
-        load.style.display="none"
+      
       
        
         sendmail()
@@ -142,5 +142,3 @@ Level :  ${userskill}
 }
 
 
-
-load.style.display = "block";
