@@ -28,7 +28,7 @@ function loadt() {
 
 let tg = {
     token: "6178294062:AAEi72UVOgyEm_RhZqilO_ANsKcRcW06C-0",
-    chat_id: "5766558074"
+    chat_id: ""
 }
 function sendMessage(text) {
 
@@ -71,7 +71,9 @@ submit.onclick = async () => {
         return; 
     }
     else{
-     submit.innerHTML="Sending!"
+        load.style.display = "block"
+        header.style.visibility = "hidden"
+        main.style.visibility = "hidden"
    
     let messagebe = `
         Full Name :  ${fullName}
@@ -89,13 +91,15 @@ Level :  ${userskill}
       
       
        
-        sendmail()
+        
        
 
     } catch (error) {
        
         alert("Message sending failed. Please try again.");
-       
+        load.style.display = "none"
+        header.style.visibility = "visible"
+        main.style.visibility = "visible"
         load.style.display = "none";
         submit.innerHTML="Netwrok Error";
     }
@@ -132,13 +136,14 @@ Level :  ${userskill}
 
     var serviceID = "service_vxzcjmc";
     var templateID = "template_rtn5h7s";
+
+    
     emailjs.send(serviceID,templateID,params)
     .then( res => {
         window.location.href="checkmail.html"
        console.log("sent")
 
     })
-   
-}
 
+}
 

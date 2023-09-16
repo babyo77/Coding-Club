@@ -10,7 +10,7 @@
     background-color: black;
     color: white;
     border-radius: 0px;
-    border: 1px solid white
+    
     
     
     
@@ -140,6 +140,7 @@ button{
     margin-top: .3rem;
     margin-bottom: 10px;
     height: 2rem;
+    justify-content: center;
     border-color: rgba(255, 255, 255, 0.44);
     outline: none;
     border: 1px solid;
@@ -166,12 +167,15 @@ button:active{
 }
 #load{
     display: none;
-    border: 1px solid white;
+    
     height: 17px;
     width: 17px;
+
     position: absolute;
-    margin-top: 37.3rem;
-    justify-self: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     
     border: 3px solid white;
     border-top: 3px solid red;
