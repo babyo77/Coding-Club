@@ -179,7 +179,7 @@ button:active{
 display: none;
 
     position: absolute;
-    top: 50vh;
+    top: 50%;
     left: 48vw;
    
     height: 2rem;
@@ -212,6 +212,8 @@ animation: spin 2s linear infinite;
     }
 
     #load{
+        display: block;
+        top: 47%;
         left: 44vw;
     }
 }
