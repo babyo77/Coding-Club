@@ -10,8 +10,7 @@
     background-color: black;
     color: white;
     border-radius: 0px;
-    
-    
+
     
     
     
@@ -21,7 +20,7 @@
 .main{
     visibility: hidden;
     height: 100vh;
-    width: 100vw;
+   
     justify-content: center;
     display: flex;
     align-items: center;
@@ -170,20 +169,20 @@ button:active{
     width: 7rem;
     filter: invert(100%);
 }
-#load{
-    display: none;
-    
-    height: 17px;
-    width: 17px;
 
-    position: absolute;
+#load{
+    
+display: none;
+
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+   
+    height: 2rem;
+    width: 2rem;
     
-    border: 3px solid white;
-    border-top: 3px solid red;
+    border: 7px solid white;
+    border-top: 7px solid red;
   
     border-radius: 50%;
 animation: spin 2s linear infinite;
