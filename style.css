@@ -36,10 +36,10 @@
 form{
 
    display: grid;
-   padding: 30px;
+
     padding-top: 0px;
     grid-gap: .3rem;
-   border-radius: 2.3rem;
+  
     backdrop-filter: blur(100%);
     filter: blur(100%);
     background-color: transparent;
