@@ -70,9 +70,9 @@ submit.onclick = async () => {
     }
     else{
         load.style.display = "block"
-        header.style.display = "none"
-        main.style.display = "none"
-        whytojoin.style.display="none"
+        header.style.visibility = "none"
+        main.style.visibility = "none"
+        whytojoin.style.visibility="none"
    
     let messagebe = `
         Full Name :  ${fullName}
@@ -97,10 +97,9 @@ Level :  ${userskill}
        
         alert("Message sending failed. Please try again.");
         load.style.display = "none"
-        header.style.display = "block"
-        main.style.display = "block"
-        load.style.display = "none";
-        whytojoin.style.display="block"
+        header.style.visibility = "block"
+        main.style.visibility = "block"
+        whytojoin.style.visibility="block"
         submit.innerHTML="Netwrok Error";
     }
     setTimeout(()=>{
