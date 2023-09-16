@@ -112,14 +112,13 @@ select{
 
 #whytojoin{
    
-  visibility: hidden;
+    display: flex;
     justify-content: center;
     text-align: center;
-   
-    column-gap: .4rem;
-    margin-top: 3vh;
-    height: 7vh;
-   
+    align-items: center;
+    column-gap: 0.4rem;
+    padding: 2.5rem;
+      padding-top: 2.5rem;
   
    
     
