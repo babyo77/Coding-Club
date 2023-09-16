@@ -10,16 +10,13 @@
     background-color: black;
     color: white;
     border-radius: 0px;
-
-    
-    
-    
+    border: 1px solid white;   
 }
 
 
 .main{
     visibility: hidden;
-    height: 100vh;
+   
    
     justify-content: center;
     display: flex;
