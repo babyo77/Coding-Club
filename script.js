@@ -146,8 +146,8 @@ Level :  ${userskill}
     .catch( res=> {
         alert("Check You internet Connection Or Try again later");
         load.style.display = "none"
-        header.style.display = "block"
-        main.style.display = "block"
+        header.style.display = "flex"
+        main.style.display = "flex"
         load.style.display = "none";
         whytojoin.style.display="block"
         submit.innerHTML="Netwrok Error";
