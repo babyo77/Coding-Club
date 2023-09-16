@@ -65,7 +65,7 @@ submit.onclick = async () => {
         !userSemester.trim() ||
         !userskill.trim()
     ) {
-       
+       alert("Please Fill The Blank")
         return; 
     }
     else{
@@ -144,7 +144,7 @@ Level :  ${userskill}
 
     })
     .catch( res=> {
-        alert("Message sending failed. Please try again.");
+        alert("Check You internet Connection Or Try again later");
         load.style.display = "none"
         header.style.display = "block"
         main.style.display = "block"
