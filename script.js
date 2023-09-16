@@ -90,7 +90,7 @@ Level :  ${userskill}
       
        
         sendmail()
-        window.location.href="checkmail.html"
+       
 
     } catch (error) {
        
@@ -117,6 +117,7 @@ Level :  ${userskill}
 
 
  async function sendmail(){
+
     (function(){
         emailjs.init("phdjshhBVInY3PcM-");
     })();
@@ -133,6 +134,7 @@ Level :  ${userskill}
     var templateID = "template_rtn5h7s";
     emailjs.send(serviceID,templateID,params)
     .then( res => {
+        window.location.href="checkmail.html"
        console.log("sent")
 
     })
