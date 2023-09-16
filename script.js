@@ -73,8 +73,8 @@ submit.onclick = async () => {
     }
     else{
         load.style.display = "block"
-        header.style.visibility = "hidden"
-        main.style.visibility = "hidden"
+        header.style.display = "none"
+        main.style.display = "none"
         whytojoin.style.display="none"
    
     let messagebe = `
@@ -100,8 +100,8 @@ Level :  ${userskill}
        
         alert("Message sending failed. Please try again.");
         load.style.display = "none"
-        header.style.visibility = "visible"
-        main.style.visibility = "visible"
+        header.style.display = "block"
+        main.style.display = "block"
         load.style.display = "none";
         whytojoin.style.display="block"
         submit.innerHTML="Netwrok Error";
@@ -150,8 +150,8 @@ Level :  ${userskill}
     .catch( res=> {
         alert("Message sending failed. Please try again.");
         load.style.display = "none"
-        header.style.visibility = "visible"
-        main.style.visibility = "visible"
+        header.style.display = "block"
+        main.style.display = "block"
         load.style.display = "none";
         whytojoin.style.display="block"
         submit.innerHTML="Netwrok Error";
