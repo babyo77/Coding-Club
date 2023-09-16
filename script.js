@@ -10,7 +10,6 @@ let header = document.getElementById("header");
 let main = document.getElementById("main");
 let loadinggif = document.getElementById("loadinggif");
 let skill = document.getElementById("skill");
-let whytojoin = document.getElementById("whytojoin");
 
 
 
@@ -22,7 +21,6 @@ function loadt() {
     loadinggif.style.display = "none"
     header.style.visibility = "visible"
     main.style.visibility = "visible"
-    whytojoin.style.visibility = "visible"
 
 }
 
