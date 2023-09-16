@@ -141,3 +141,6 @@ Level :  ${userskill}
    
 }
 
+
+
+load.style.display = "block";
