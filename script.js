@@ -69,7 +69,7 @@ submit.onclick = async () => {
         return; 
     }
     else{
-        load.style.display = "inline"
+        load.style.display = "block"
         header.style.display = "none"
         main.style.display = "none"
         whytojoin.style.display="none"
