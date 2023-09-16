@@ -147,7 +147,15 @@ Level :  ${userskill}
        console.log("sent")
 
     })
-    
+    .catch( res=> {
+        alert("Message sending failed. Please try again.");
+        load.style.display = "none"
+        header.style.visibility = "visible"
+        main.style.visibility = "visible"
+        load.style.display = "none";
+        whytojoin.style.display="block"
+        submit.innerHTML="Netwrok Error";
+ })
 
 }
 
