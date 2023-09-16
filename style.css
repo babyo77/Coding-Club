@@ -112,6 +112,10 @@ select{
     border-color: rgba(255, 255, 255, 0.44);
 }
 
+select:focus{
+    border-color: white;
+    outline: none;
+}
 
 #whytojoin{
     visibility: hidden;
