@@ -28,13 +28,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+
+
+
+    
 }
 
 form{
 
    display: grid;
    padding: 30px;
-  
+    padding-top: 0px;
     grid-gap: .3rem;
    border-radius: 2.3rem;
     backdrop-filter: blur(100%);
