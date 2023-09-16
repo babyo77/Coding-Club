@@ -208,5 +208,8 @@ animation: spin 2s linear infinite;
         top: 47%;
         left: 44vw;
     }
+    main{
+        display: block;
+    }
 }
 

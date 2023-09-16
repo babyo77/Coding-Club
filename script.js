@@ -108,8 +108,6 @@ Level :  ${userskill}
    kid.value=""
    email.value=""
    no.value=""
- course.value=""
-     semester.value=""
      submit.innerHTML = "Join!";
      load.style.display = "none";
 
@@ -146,7 +144,7 @@ Level :  ${userskill}
     .catch( res=> {
         alert("Check You internet Connection Or Try again later");
         load.style.display = "none"
-        header.style.display = "flex"
+        header.style.display = "block"
         main.style.display = "flex"
         load.style.display = "none";
         whytojoin.style.display="block"
