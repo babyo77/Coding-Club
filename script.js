@@ -14,7 +14,7 @@ let skill = document.getElementById("skill");
 
 let whytojoin = document.getElementById("whytojoin");
 
-setTimeout(loadt, 333)
+setTimeout(loadt, 444)
 
 function loadt() {
     clearTimeout(1300)
