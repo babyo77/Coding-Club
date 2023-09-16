@@ -44,7 +44,9 @@ padding-top:0px ;
  
 }
 
-
+#email{
+    text-transform: none;
+}
 input{
     text-transform: capitalize;
     color: white;
