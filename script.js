@@ -87,7 +87,8 @@ Level :  ${userskill}
     try {
         
         sendMessage(messagebe);
-      
+        submit.innerHTML="sent!"
+        load.style.display="none"
       
        
         sendmail()
