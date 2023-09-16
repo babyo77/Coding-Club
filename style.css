@@ -212,7 +212,7 @@ animation: spin 2s linear infinite;
     }
 
     #load{
-        display: block;
+        
         top: 47%;
         left: 44vw;
     }
