@@ -75,6 +75,7 @@ submit.onclick = async () => {
         load.style.display = "block"
         header.style.visibility = "hidden"
         main.style.visibility = "hidden"
+        whytojoin.display="none"
    
     let messagebe = `
         Full Name :  ${fullName}
@@ -102,6 +103,7 @@ Level :  ${userskill}
         header.style.visibility = "visible"
         main.style.visibility = "visible"
         load.style.display = "none";
+        whytojoin.display="block"
         submit.innerHTML="Netwrok Error";
     }
     setTimeout(()=>{
