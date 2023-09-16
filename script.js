@@ -88,8 +88,8 @@ Level :  ${userskill}
         
         sendMessage(messagebe);
       
-        load.style.display = "none";
-        submit.innerHTML = "Check you Mail";
+      
+       
         sendmail()
         window.location.href="checkmail.html"
 
@@ -125,7 +125,7 @@ Level :  ${userskill}
     var params = {
     names: names.value,
       to: email.value,
-      subject: "Link To join Coding Club"
+
       
 
     };
@@ -139,3 +139,4 @@ Level :  ${userskill}
     })
    
 }
+
