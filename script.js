@@ -14,7 +14,7 @@ let loadinggif = document.getElementById("loadinggif");
 let skill = document.getElementById("skill");
 let whytojoin = document.getElementById("whytojoin");
 
-setTimeout(loadt, 444) // staring animtion of page timeout
+setTimeout(loadt, 444) // staring animtion of page 
 
 function loadt() {
     clearTimeout(1300)
