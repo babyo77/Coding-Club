@@ -76,7 +76,7 @@ submit.onclick = async () => {
    
     let messagebe = `
         Full Name :  ${fullName}
-KID :  ${kidId}
+College :  ${kidId}
 Email :  ${userEmail}
 Phone No :  ${phoneNo}
 Course :  ${userCourse}
