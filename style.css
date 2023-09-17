@@ -164,6 +164,8 @@ button:active{
     height: 7rem;
     width: 7rem;
     filter: invert(100%);
+    outline: none;
+    border: none;
 }
 
 #load{
