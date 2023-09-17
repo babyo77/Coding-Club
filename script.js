@@ -15,7 +15,6 @@ let skill = document.getElementById("skill");
 let whytojoin = document.getElementById("whytojoin");
 let stars = document.getElementById("stars");
 let stars2 = document.getElementById("stars2");
-let stars3 = document.getElementById("stars3");
 
 setTimeout(loadt, 444) // staring animtion of page 
 
@@ -23,7 +22,6 @@ function loadt() {
     clearTimeout(1300)
     stars.style.display="block"
     stars2.style.display="block"
-    stars3.style.display="block"
     whytojoin.style.visibility="visible"
     loadinggif.style.display = "none"
     header.style.visibility = "visible"
