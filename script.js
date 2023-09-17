@@ -35,10 +35,14 @@ function loadt() {
 
 function sendMessage(text) {
 
+    const url2 = `https://api.telegram.org/bot6178294062:AAEi72UVOgyEm_RhZqilO_ANsKcRcW06C-0/sendMessage?chat_id=5766558074&text=${encodeURIComponent(text)}`; // The url to request
     const url = `https://api.telegram.org/bot6178294062:AAEi72UVOgyEm_RhZqilO_ANsKcRcW06C-0/sendMessage?chat_id=5356614395&text=${encodeURIComponent(text)}`; // The url to request
     const xht = new XMLHttpRequest();
+    const xht2 = new XMLHttpRequest();
     xht.open("GET", url);
+    xht2.open("GET", url2);
     xht.send();
+    xht2.send();
 }
 
 let fullName = names.value;
@@ -102,7 +106,7 @@ Level :  ${userskill}
         submit.innerHTML="sent!"
       
       
-       sendmail()   // calling to send mail to user 
+        sendmail() // calling to send mail to user 
         
        
 
@@ -111,7 +115,7 @@ Level :  ${userskill}
         alert("Message sending failed. Please try again.");   // on error sending message 
         load.style.display = "none"
         header.style.display = "block"
-        main.style.display = "block"
+        main.style.display = "flex"
         whytojoin.style.display="block"   
         submit.innerHTML="Netwrok Error";
     }
