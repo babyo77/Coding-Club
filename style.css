@@ -783,6 +783,8 @@ animation: spin 2s linear infinite;
       transform: translateY(-2000px);
     }
   }
-  
 
-  
+body::-webkit-scrollbar{
+    display: none;
+
+  }
