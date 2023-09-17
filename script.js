@@ -16,10 +16,10 @@ let whytojoin = document.getElementById("whytojoin");
 let stars = document.getElementById("stars");
 let stars2 = document.getElementById("stars2");
 
-setTimeout(loadt, 444) // staring animtion of page 
+const timeoutId = setTimeout(loadt, 444) // staring animtion of page 
 
 function loadt() {
-    clearTimeout(1300)
+    clearTimeout(timeoutId)
     stars.style.display="block"
     stars2.style.display="block"
     whytojoin.style.visibility="visible"
