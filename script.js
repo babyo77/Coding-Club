@@ -68,9 +68,9 @@ submit.onclick = async () => {
     let userskill = skill.value;
 
     
-    if(phoneNo.length != 14)
+    if(phoneNo.length != 10)
     {
-        
+                                            //to validate phone no 
         no.focus();
         return;
     }
