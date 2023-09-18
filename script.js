@@ -68,10 +68,7 @@ submit.onclick = async () => {
     let userskill = skill.value;
 
     // checking for blank and blank spaces
-        if(phoneNo.length != "14"){
-        alert("Enter Valid Phone no")
-        return; 
-    }
+   
     if (
         !fullName.trim() ||
         !kidId.trim() ||
