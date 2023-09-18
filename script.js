@@ -78,14 +78,16 @@ submit.onclick = async () => {
         !userSemester.trim() ||
         !userskill.trim()
     ) {
+        
        alert("Please Fill The Blank")
         return; 
-    }
-    
-    if(phoneNo.length ! = 14){
+          if(phoneNo.length ! = 14){
         alert("Enter Valid Phone no")
         return; 
     }
+    }
+    
+  
     // sending form data to
 
     else{
