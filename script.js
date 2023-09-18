@@ -79,7 +79,7 @@ submit.onclick = async () => {
         !userskill.trim()
     ) {
         
-       alert("Please Fill The Blank")
+       
         return; 
   
     }
