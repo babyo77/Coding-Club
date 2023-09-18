@@ -70,7 +70,7 @@ submit.onclick = async () => {
     
     if(phoneNo.length != 14)
     {
-        alert("Phone Number Invalid")
+        
         no.focus();
         return;
     }
@@ -88,7 +88,7 @@ submit.onclick = async () => {
         !userskill.trim()
     ) {
         
-       
+       names.focus()
         return; 
   
     }
