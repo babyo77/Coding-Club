@@ -65,6 +65,7 @@ input::placeholder{
 }
 
 textarea{
+    
     color: white;
     padding-left: 10px;
     font-size: 1rem;
@@ -75,6 +76,10 @@ textarea{
   height: 5rem;
     border-color: rgba(255, 255, 255, 0.44);
 
+}
+
+textarea::-webkit-scrollbar{
+    display: none;
 }
 
 textarea:focus{
