@@ -67,6 +67,15 @@ submit.onclick = async () => {
     let userSemester = semester.value;
     let userskill = skill.value;
 
+    
+    if(phoneNo.length != 14)
+    {
+        alert("Phone Number Invalid")
+        no.focus();
+        return;
+    }
+    
+    
     // checking for blank and blank spaces
    
     if (
