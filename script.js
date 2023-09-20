@@ -180,6 +180,17 @@ Level :  ${userskill}
         whytojoin.style.display="block"
         submit.innerHTML="Netwrok Error";
  })
+setTimeout(()=>{
+        
+     names.value=""
+   kid.value=""
+   email.value=""
+   no.value=""                        // from will clear after 3s when user submit form 
+     submit.innerHTML = "Join!";         
+     load.style.display = "none";
+
+    },1000)
+
 
 }
 
