@@ -54,7 +54,7 @@ let userSemester = semester.value;
 
 //  join button event 
 
-submit.onclick = async () => {
+submit.onsubmit = async () => {
    
 
 // getting all values
