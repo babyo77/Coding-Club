@@ -179,8 +179,7 @@ Level :  ${userskill}
         load.style.display = "none";
         whytojoin.style.display="block"
         submit.innerHTML="Netwrok Error";
- })
-setTimeout(()=>{
+        setTimeout(()=>{
         
      names.value=""
    kid.value=""
@@ -190,6 +189,8 @@ setTimeout(()=>{
      load.style.display = "none";
 
     },1000)
+ })
+
 
 
 }
