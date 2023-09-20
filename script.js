@@ -172,13 +172,13 @@ Level :  ${userskill}
 
     })
     .catch( res=> {
-        alert("Check You internet Connection Or Try again later");
+        alert("Check Your Email Address Or Try again later");
         load.style.display = "none"
         header.style.display = "block"
         main.style.display = "flex"                         //on error 
         load.style.display = "none";
         whytojoin.style.display="block"
-        submit.innerHTML="Netwrok Error";
+        submit.innerHTML="Enter Correct Email";
         setTimeout(()=>{
         
      names.value=""
@@ -188,7 +188,7 @@ Level :  ${userskill}
      submit.innerHTML = "Join!";         
      load.style.display = "none";
 
-    },1000)
+    },3333)
  })
 
 
